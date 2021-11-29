@@ -1,4 +1,4 @@
-﻿#define _WIN32_WINNT 0x0500   
+#define _WIN32_WINNT 0x0500   
 #include <windows.h>   
 #include <winnt.h>   
 #include <winbase.h>   
@@ -414,7 +414,7 @@ int main()
     if (FileOpenName(0, FileName))
     {
         if (MappedPEFileAndScanImportTable(FileName))
-            printf("IMP successed!");
+            printf("IMP success!");
         else printf("IMP failed!");
         getchar();
     }
