@@ -7,5 +7,4 @@ Old 32 bit PE executable protector
 - [x] Anti Debug
 - [x] Dynamic API Resolve
 - [X] ASM support 
-- [x] Fast packing / unpacking
  
